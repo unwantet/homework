@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(204, 203, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.left{
+    width: 720px;
+    height: 900px;
+    background-image: url(../img/image\ 1.png);
+}
+.right{
+    width: 720px;
+    height: 900px;
+    background-color: #fff;
+    padding: 232px 177px 0 177px;
+}
+
+.welcome-tit{
+    height: 56px;
+    width: auto;
+    margin-bottom: 24px;
+
+}
+
+h1{
+    color: var(--900, #1A202C);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.welcome-tit p{
+    color: var(--800, #2D3748);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.first_input{
+    height: 50px;
+    width: 350px;
+    top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(182, 176, 176, 0.839);
+    padding: 17px 20px;
+    margin: 11px 0;
+
+}
+
+.remember_box{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.remember_box a{
+    margin-left: 110px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.remember{
+    width: 15px;
+}
+
+.remember_box p{
+    margin-left: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.sing-btn{
+    width: 347px;
+    height: 50px;
+    top: 554px;
+    left: 915px;
+    margin-top: 27px;
+    border-radius: 5px;
+    background: #04C35C;
+    border: none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.google-btn{
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--800, #2D3748);
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.sing-btn:hover{
+    background-color: #1e844e;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.google-btn:hover{
+    background-color: #101318;
+    cursor: pointer; 
+    transition: background-color 0.5s ease;
+}
+
+.remember_box a:hover{
+    text-decoration: underline;
+}
+.join-free{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin-left: 49px;
+
+}
+.join-free a:hover{
+    text-decoration: underline;
+}
+
+.join-free a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.g_id_onload{
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--800, #2D3748);
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
